@@ -417,3 +417,27 @@ a {
 
     }
 }
+
+.contenedor-embebido {
+    position: relative;
+    width: 80%;
+    padding-bottom: 56.25%; 
+
+    background-color: #3d4850;
+  }
+  
+  .contenedor-embebido iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+  }
+  .imagen-carrusel{
+    margin-top: 10%;
+    width: 500px;
+    height: 500px;
+}
+  
+  
