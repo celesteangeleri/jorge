@@ -1,5 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
 body {
-    background-color: teal !important;
+    background-image: url(https://media.revistagq.com/photos/604b2f499fc97c95e82c1c14/16:9/pass/2101913.jpg);
+    
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: auto;
+    
+}
+.fondo-header{
+    background-image: url(https://lh3.googleusercontent.com/2rBX0mJVfjDcp0fYTiGWKgD4-lq4KvePYDmXz_2aNiioJ2QMxhrzZhCcjTXRkTaIm4XTK_MMAUy-qo4XWhKlaj60wWcnjAeeVKcQtHx8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .reproductor {
@@ -8,7 +26,7 @@ body {
     padding: 20px;
     height: 183px;
     justify-content: center;
-    background-color: #3d4850;
+    
     ;
 
 }
@@ -19,10 +37,16 @@ body {
     flex-wrap: nowrap;
     padding: 24px;
     color: azure;
-    background-color: teal;
-    background: repeating-radial-gradient(#178d85, black 196px);
     margin-top: 10%;
-}
+    animation: bucle-opacity 5s infinite;
+  }
+
+  @keyframes bucle-opacity {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+  }
+
 
 #redes {
 
@@ -49,6 +73,8 @@ body {
 
 a {
     color: azure;
+    background-color: lightblue;
+    border-radius: 10%;
 }
 
 .portada {
@@ -57,19 +83,59 @@ a {
     height: 100px;
     display: flex;
     justify-content: space-between;
-
+width: 240px;
 }
 
 a {
     color: azure;
 }
-/* fin css de pagina trabajada con boostrap */
-
 .responsive {
-    color: azure;
-}
+    color: azure;}
+    .col-lg-4{
+        border: solid lightseagreen;
+        border-radius: 20px; background-color: #3d4850;
+        opacity: 60%;
+    }
 
 /* fin de estilo pagina index */
+
+
+/* inicio de pagina de carreras */
+.imagen-carrusel{
+    width: 500px;
+}
+
+    .video-responsive {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+    }
+    .video-responsive iframe {
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+
+
+
+
+
+
+/* fin de inicio de carrera */
+
+ /* agregar clasee para la pagina de equipos */  
+  animation: bucle-opacity 5s infinite;
+  
+  @keyframes bucle-opacity {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+  }
 
 .contenedor-primario1 {
     background: rgb(0, 87, 83);
@@ -207,11 +273,11 @@ a {
 .cristales {
     display: grid;
     gap: 38px 0px;
-    /* background-color: teal; */
+   
     width: 36%;
     border-radius: 70px;
     margin-inline: auto;
-    /* align-items: center; */
+    
     justify-items: center;
     margin-bottom: 20px;
     border: solid azure;
@@ -418,26 +484,5 @@ a {
     }
 }
 
-.contenedor-embebido {
-    position: relative;
-    width: 80%;
-    padding-bottom: 56.25%; 
 
-    background-color: #3d4850;
-  }
-  
-  .contenedor-embebido iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    
-  }
-  .imagen-carrusel{
-    margin-top: 10%;
-    width: 500px;
-    height: 500px;
-}
-  
   
