@@ -119,23 +119,9 @@ a {
         height: 100%;
     }
     
-    
-
-
-
-
-
-
 /* fin de inicio de carrera */
 
  /* agregar clasee para la pagina de equipos */  
-  animation: bucle-opacity 5s infinite;
-  
-  @keyframes bucle-opacity {
-    0% { opacity: 1; }
-    50% { opacity: 0.5; }
-    100% { opacity: 1; }
-  }
 
 .contenedor-primario1 {
     background: rgb(0, 87, 83);
