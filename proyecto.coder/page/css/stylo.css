@@ -238,7 +238,11 @@ h3 {
     grid-row-end: inherit;
     align-content: center;
 }
-
+.botones :hover {background-color: teal;
+        color: blue;
+    width: fit-content;
+   
+}
 
 
 .grid-container-hijo2 .botones {
