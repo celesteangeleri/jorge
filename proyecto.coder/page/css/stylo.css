@@ -27,9 +27,6 @@ body {
     padding: 20px;
     height: 183px;
     justify-content: center;
-
-    ;
-
 }
 
 .row1 {
@@ -182,6 +179,25 @@ a {
     border: solid #973200;
     border-radius: 8px;
     background: cadetblue;
+    border: solid lightseagreen;
+    border-radius: 20px;
+    background-color: #3d4850;
+    opacity: 80%;
+    animation: bucle-opacity 5s infinite;
+
+}
+@keyframes bucle-opacity {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .textos4 {
